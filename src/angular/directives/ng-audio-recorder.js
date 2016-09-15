@@ -6,7 +6,7 @@ angular.module('angularAudioRecorder.directives')
       return {
         restrict: 'EA',
         scope: {
-          audioModel: '=',
+          audioModel: '=?',
           id: '@',
           onRecordStart: '&',
           onRecordComplete: '&',
