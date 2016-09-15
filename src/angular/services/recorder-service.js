@@ -268,7 +268,7 @@ angular.module('angularAudioRecorder.services')
       var controllers = {};
 
       service.controller = function (id) {
-        return controllers[id];
+        return controllers;
       };
 
       service.getSwfUrl = function () {
