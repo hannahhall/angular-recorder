@@ -302,8 +302,8 @@ angular.module('angularAudioRecorder.services')
           return true;
         }
 
-        return service.isHtml5
-          || swfHandlerConfig.isInstalled();
+        return service.isHtml5;
+          
       };
 
       service.getHandler = function () {
